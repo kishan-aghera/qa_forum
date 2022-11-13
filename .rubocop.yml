@@ -17,8 +17,8 @@ require:
   - rubocop-rails
 
 AllCops:
-  TargetRubyVersion: 2.7
-  TargetRailsVersion: 6.0
+  TargetRubyVersion: 3.1.2
+  TargetRailsVersion: 7.0.4
   Exclude:
     - '**/db/migrate/*'
     - 'db/schema.rb'
@@ -29,6 +29,7 @@ AllCops:
     - '**/spec_helper.rb'
     - 'node_modules/**/*'
     - 'bin/*'
+    - 'config/*'
 
 ###########################################################
 ###################### RuboCop ############################

@@ -13,6 +13,7 @@ AllCops:
     - log/**/*
     - public/**/*
     - storage/**/*
+    - 'config/*'
   # Enable checking Active Support extensions.
   # See: https://docs.rubocop.org/rubocop/configuration.html#enable-checking-active-support-extensions
   ActiveSupportExtensionsEnabled: true

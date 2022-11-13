@@ -89,6 +89,7 @@ end
 
 gem 'ahoy_matey'
 gem 'country_select'
+gem 'devise'
 gem 'dotenv-rails'
 gem 'meta-tags'
 gem 'paper_trail'
