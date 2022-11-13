@@ -1,6 +1,6 @@
 class CreateAhoyVisitsAndEvents < ActiveRecord::Migration[7.0]
   def change
-    create_table :ahoy_visits do |t|
+    create_table :ahoy_visits, id: :uuid, default: -> { "gen_random_uuid()" } do |t|
       t.string :visit_token
       t.string :visitor_token
 
@@ -46,7 +46,7 @@ class CreateAhoyVisitsAndEvents < ActiveRecord::Migration[7.0]
 
     add_index :ahoy_visits, :visit_token, unique: true
 
-    create_table :ahoy_events do |t|
+    create_table :ahoy_events, id: :uuid, default: -> { "gen_random_uuid()" } do |t|
       t.references :visit
       t.references :user
 

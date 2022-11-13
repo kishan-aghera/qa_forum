@@ -9,7 +9,7 @@ class CreateVersions < ActiveRecord::Migration[7.0]
   TEXT_BYTES = 1_073_741_823
 
   def change
-    create_table :versions do |t|
+    create_table :versions, id: :uuid, default: -> { "gen_random_uuid()" }, force: :cascade do |t|
       t.string   :item_type, null: false
       t.string   :item_id,   null: false
       t.string   :event,     null: false
