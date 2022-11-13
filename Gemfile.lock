@@ -138,6 +138,9 @@ GEM
     importmap-rails (1.1.5)
       actionpack (>= 6.0.0)
       railties (>= 6.0.0)
+    inline_svg (1.8.0)
+      activesupport (>= 3.0)
+      nokogiri (>= 1.6)
     io-console (0.5.11)
     irb (1.4.2)
       reline (>= 0.3.0)
@@ -341,6 +344,7 @@ DEPENDENCIES
   dotenv-rails
   image_processing (~> 1.2)
   importmap-rails
+  inline_svg
   jbuilder
   letter_opener
   letter_opener_web
