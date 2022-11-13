@@ -81,4 +81,5 @@ group :development do
   # gem "spring"
 end
 
+gem 'ahoy_matey'
 gem 'dotenv-rails'
