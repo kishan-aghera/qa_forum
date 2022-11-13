@@ -83,6 +83,7 @@ group :development do
   gem 'annotate', git: 'https://github.com/ctran/annotate_models.git'
   gem 'better_errors'
   gem 'binding_of_caller'
+  gem 'brakeman'
 end
 
 gem 'ahoy_matey'
