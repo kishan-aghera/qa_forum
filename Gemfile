@@ -84,6 +84,8 @@ group :development do
 end
 
 gem 'ahoy_matey'
+gem 'country_select'
 gem 'dotenv-rails'
-gem 'rack-attack'
 gem 'paper_trail'
+gem 'rack-attack'
+gem 'simple_form'
