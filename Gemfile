@@ -83,3 +83,4 @@ end
 
 gem 'ahoy_matey'
 gem 'dotenv-rails'
+gem 'rack-attack'
