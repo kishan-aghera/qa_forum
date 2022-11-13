@@ -86,6 +86,7 @@ end
 gem 'ahoy_matey'
 gem 'country_select'
 gem 'dotenv-rails'
+gem 'meta-tags'
 gem 'paper_trail'
 gem 'rack-attack'
 gem 'simple_form'

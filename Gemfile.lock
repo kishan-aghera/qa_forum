@@ -142,6 +142,8 @@ GEM
     mail (2.7.1)
       mini_mime (>= 0.1.1)
     marcel (1.0.2)
+    meta-tags (2.18.0)
+      actionpack (>= 3.2.0, < 7.1)
     method_source (1.0.0)
     mini_mime (1.1.2)
     minitest (5.16.3)
@@ -304,6 +306,7 @@ DEPENDENCIES
   jbuilder
   letter_opener
   letter_opener_web
+  meta-tags
   paper_trail
   pg (~> 1.1)
   puma (~> 5.0)
