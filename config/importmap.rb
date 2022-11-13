@@ -10,3 +10,4 @@ pin_all_from 'app/javascript/controllers', under: 'controllers'
 pin 'ahoy', to: 'ahoy.js'
 pin 'trix'
 pin '@rails/actiontext', to: 'actiontext.js'
+pin "flowbite", to: "https://ga.jspm.io/npm:flowbite@1.5.3/dist/flowbite.js"
