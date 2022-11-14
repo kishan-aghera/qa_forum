@@ -128,8 +128,8 @@ ActiveRecord::Schema[7.0].define(version: 2022_11_13_103618) do
     t.string "item_id", null: false
     t.string "event", null: false
     t.string "whodunnit"
-    t.text "object"
-    t.text "object_changes"
+    t.jsonb "object"
+    t.jsonb "object_changes"
     t.datetime "created_at"
     t.index ["item_type", "item_id"], name: "index_versions_on_item_type_and_item_id"
   end
