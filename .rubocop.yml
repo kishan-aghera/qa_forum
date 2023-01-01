@@ -17,6 +17,7 @@ require:
   - rubocop-rails
 
 AllCops:
+  NewCops: enable
   TargetRubyVersion: 3.1.2
   TargetRailsVersion: 7.0.4
   Exclude:
@@ -30,6 +31,7 @@ AllCops:
     - 'node_modules/**/*'
     - 'bin/*'
     - 'config/*'
+    - 'app/controllers/turbo_controller.rb'
 
 ###########################################################
 ###################### RuboCop ############################
